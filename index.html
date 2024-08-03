@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .qrcode {display: flex;
+       justify-content: center;
+       align-items: center;height: 100vh; 
+       background-color: #D5E1EF;
+      }
+    .qrcode-data{
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+      height: 450px;
+      width: 300px;
+    }   
+    .qrcode-data-image img{
+      border-radius: 10px;
+      height: 30%;
+      width: 100%;
+    }
+    .qrcode-data-content{
+      height: 30%;
+      width: 100%;
+      padding: 0px 15px;
+    }
+    .qrcode-data-content h3{
+      font-size: 24px;
+      font-weight: 900;
+    }
+    .qrcode-data-content p{
+      font-weight: 100;
+      font-size: 15px;
+      color: rgba(0,0 , 0, 0.);
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="qrcode">
+    <div class="qrcode-data">
+        <div class="qrcode-data-image"><img src="./images/image-qr-code.png" />  </div>
+        <div class="qrcode-data-content">
+          <h3>  Improve your front-end skills by building projects</h3>
+          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+    </div>
+  
+  </div>
+
+</body>
+</html>
